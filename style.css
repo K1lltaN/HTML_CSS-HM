@@ -29,7 +29,7 @@
     top: 350px;
     left: 600px;
     right: 200px;
-    bottom: 270px;
+    bottom: 280px;
 }
 
 .flexbox {
@@ -47,5 +47,83 @@
 .about {
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 100px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.fleximg {
+    display: flex;
+}
+.fleximg img {
+    margin: 0px 30px 0px;
+    height: 300px;
+}
+
+.team {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#F5F4FA;
+    height: 648px;
+    margin-top: 75px;
+}
+
+.team_flex {
+    display: flex;
+}
+
+.team_name {
+    text-align: center;
+    padding: 80px 0px 25px;
+}
+
+.photos_team {
+    margin: 0px 30px;
+    background-color: white;
+    width: 270px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.rname {
+    font-weight: 600;
+    color: black;
+}
+
+.jobname {
+    color: #757575;
+}
+
+.lastbox {
+    background-color:#2F303A;
+    position: absolute;
+    height: 252px;
+    width: 1340px;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sheatshrift_a, .sheatshrift_b{
+    position: absolute;
+    font-family: Railway;
+    font-size: 26px;
+    font-weight: 700;
+}
+.sheatshrift_a {
+    color: blue;
+    left: 215px;
+    top: 60px;
+}
+
+.sheatshrift_b {
+    color: white;
+    top: 60px;
+    left: 270px;
+}
+
+.other_a {
+    position: absolute;
+    color: white;
+    top: 111px;
+    left: 215px;
 }
